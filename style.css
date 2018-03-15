@@ -1,3 +1,91 @@
+/*
+
+selector {
+    property: value;
+    property: value;
+}
+
+*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body {
+    margin:0;
+    padding:0;
+}
+
 body {
   font-family:monospace;
+}
+
+p {
+    color: purple;
+    font-size: 20px;
+}
+
+header, section {
+    min-height: 100vh;
+    background-color: #ccc;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat:no-repeat;
+    padding: 2rem;
+} 
+
+.sidebar {
+    float: right;
+    width: 30%;
+    background: orange;
+    display:none;
+}
+
+:target {
+    display:block;
+    position:relative;
+    top:0; right:0;
+}
+
+#thesis {
+    background-image: url('assets/photos/CTGate.jpg');
+}
+
+#outline {
+
+}
+
+#monkey_summary {
+
+}
+
+#intro_to_essay {
+
+}
+
+#monkey_hunting {
+
+}
+
+#social_message {
+
+}
+
+#origins {
+
+}
+
+#impossibility {
+
+}
+
+#questions {
+
+}
+
+#conclusion {
+
 }

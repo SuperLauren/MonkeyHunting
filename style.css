@@ -19,11 +19,11 @@ html,body {
 }
 
 body {
-  font-family:monospace;
+  font-family:Garamond;
 }
 
 p {
-    color: purple;
+    color: black;
     font-size: 20px;
 }
 
@@ -35,12 +35,12 @@ header, section {
     background-position: center center;
     background-repeat:no-repeat;
     padding: 2rem;
-} 
+}
 
 .sidebar {
     float: right;
     width: 30%;
-    background: orange;
+    background: black;
     display:none;
 }
 
@@ -66,24 +66,43 @@ header, section {
 
 }
 
-#monkey_hunting {
+#ritual_rebirth {
+  background-image: url('assets/photos/Water.jpg');
+}
+    #In_the_novel {
+      background-image: url('assets/photos/Door1.jpg')}
 
+    #Both_Chen {
+      background-image: url('assets/photos/Wall.jpg')}
+
+    #Van_Gennep {
+      background-image: url('assets/pohtos/Dock.jpg')}
+
+#origins {
+  background-image: url('assets/photos/CemeteryEntrance.jpg');
+}
+
+    #The_liminal {
+      background-image: url('assets/photos/Panteon.jpg')
+    }
+
+#c_p_on_the_plantation {
+
+}
+
+#re-roots_himself {
+  background-image: url('assets/photos/VillageView.jpg')
 }
 
 #social_message {
+  background-image: url('assets/photos/Capitolio.jpg')
+}
+
+#exceptional {
 
 }
 
-#origins {
-
-}
-
-#impossibility {
-
-}
-
-#questions {
-
+#questions {background-image: url('assets/photos/Shutters.jpg')
 }
 
 #conclusion {

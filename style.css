@@ -27,6 +27,11 @@ p {
     font-size: 20px;
 }
 
+img {
+    max-width: 100%;
+    width: auto;
+}
+
 header, section {
     min-height: 100vh;
     background-color: #ccc;
@@ -35,6 +40,23 @@ header, section {
     background-position: center center;
     background-repeat:no-repeat;
     padding: 2rem;
+    overflow:hidden;
+}
+
+section .main {
+    background: white;
+    background: rgba(255,255,1,1);
+    padding: 1rem 2rem;
+    width: 50%;
+    float:right;
+    clear:right;
+    margin:0;
+}
+
+#outline .main {
+    background: orange;
+    float:left;
+    clear:left;
 }
 
 .sidebar {
@@ -52,10 +74,19 @@ header, section {
 
 #thesis {
     background-image: url('assets/photos/CTGate.jpg');
+    background-attachment: scroll;
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content:center;
+    align-items: flex-end;
 }
 
+#thesis .main {
+    float:none;
+    clear:inherit;
+}
 #outline {
-
+    
 }
 
 #monkey_summary {

@@ -32,6 +32,7 @@ img {
     width: auto;
 }
 
+/* Every header or section */
 header, section {
     min-height: 100vh;
     background-color: #ccc;
@@ -43,28 +44,38 @@ header, section {
     overflow:hidden;
 }
 
+/* Any element with class="main" inside a section. */
 section .main {
     background: white;
     background: rgba(255,255,1,1);
     padding: 1rem 2rem;
-    width: 50%;
-    float:right;
-    clear:right;
+    width: 66%;
+    float:left;
+    clear:left;
     margin:0;
 }
 
-#outline .main {
-    background: orange;
-    float:left;
-    clear:left;
-}
-
-.sidebar {
+section .sidebar {
     float: right;
     width: 30%;
-    background: black;
+    background: rgba(255,255,255,.75);
     display:none;
 }
+
+
+/* Any header */
+header {
+    background-image: url('assets/photos/CTGate.jpg');
+    background-attachment: fixed;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: center;
+    color: white;
+    padding-top: 1in;
+}
+
+
 
 :target {
     display:block;
@@ -72,9 +83,10 @@ section .main {
     top:0; right:0;
 }
 
+/* The element with id="thesis" */
 #thesis {
     background-image: url('assets/photos/CTGate.jpg');
-    background-attachment: scroll;
+    background-attachment: fixed;
     display:flex;
     flex-direction:column-reverse;
     justify-content:center;
@@ -85,16 +97,25 @@ section .main {
     float:none;
     clear:inherit;
 }
-#outline {
 
+#outline {
+    background-image: url('assets/photos/MoonCloud.jpg');
+    background-attachment: scroll;
 }
+
+#outline .main {
+    background: orange;
+    float:left;
+    clear:left;
+}
+
 
 #monkey_summary {
 
 }
 
 #intro_to_essay {
-
+    background: #333;
 }
 
 #ritual_rebirth {

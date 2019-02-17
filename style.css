@@ -65,7 +65,7 @@ section .sidebar {
 
 /* Any header */
 header {
-    background-image: url('assets/photos/CTGate.jpg');
+    background-image: url('assets/photos-web/CTGate.jpg');
     background-attachment: fixed;
     display:flex;
     flex-direction:column;
@@ -85,7 +85,7 @@ header {
 
 /* The element with id="thesis" */
 #thesis {
-    background-image: url('assets/photos/CTGate.jpg');
+    background-image: url('assets/photos-web/CTGate.jpg');
     background-attachment: fixed;
     display:flex;
     flex-direction:column-reverse;
@@ -99,7 +99,7 @@ header {
 }
 
 #outline {
-    background-image: url('assets/photos/MoonCloud.jpg');
+    background-image: url('assets/photos-web/MoonCloud.jpg');
     background-attachment: scroll;
 }
 
@@ -119,59 +119,59 @@ header {
 }
 
 #ritual_rebirth {
-  background-image: url('assets/photos/Water.jpg');
+  background-image: url('assets/photos-web/Water.jpg');
 }
     #In_the_novel {
-      background-image: url('assets/photos/Door1.jpg');}
+      background-image: url('assets/photos-web/Door1.jpg');}
 
     #Both_Chen {
-      background-image: url('assets/photos/Wall.jpg');}
+      background-image: url('assets/photos-web/Wall.jpg');}
 
     #Van_Gennep {
-      background-image: url('assets/photos/Dock.jpg');}
+      background-image: url('assets/photos-web/Dock.jpg');}
 
 #origins {
-  background-image: url('assets/photos/CemeteryEntrance.jpg');
+  background-image: url('assets/photos-web/CemeteryEntrance.jpg');
 }
 
     #The_liminal {
-      background-image: url('assets/photos/Panteon.jpg');
+      background-image: url('assets/photos-web/Panteon.jpg');
     }
 
     #García_cites {
-      background-image: url('assets/photos/Cemetery.jpg');
+      background-image: url('assets/photos-web/Cemetery.jpg');
     }
 
     #At_sea {
-      background-image: url('assets/photos/Kidgraves.jpg');
+      background-image: url('assets/photos-web/Kidgraves.jpg');
     }
 
     #The_prevalence {
-      background-image: url('assets/photos/Skull.jpg');
+      background-image: url('assets/photos-web/Skull.jpg');
     }
 
     #Onboard_the_ship {
-      background-image: url('assets/photos/BonesBox.jpg');
+      background-image: url('assets/photos-web/BonesBox.jpg');
     }
 
     #Furthermore {
-      background-image: url('assets/photos/CemeteryBoxes.jpg');
+      background-image: url('assets/photos-web/CemeteryBoxes.jpg');
     }
 
     #The_physical {
-      background-image: url('assets/photos/BWSteeple.jpg');
+      background-image: url('assets/photos-web/BWSteeple.jpg');
     }
 
     #His_body {
-      background-image: url('assets/photos/BWPueblo.jpg');
+      background-image: url('assets/photos-web/BWPueblo.jpg');
     }
 
     #The_man_does {
-      background-image: url('assets/photos/BWStreet.jpg');
+      background-image: url('assets/photos-web/BWStreet.jpg');
     }
 
     #Harbor {
-      background-image: url('assets/photos/Harbor.jpg');
+      background-image: url('assets/photos-web/Harbor.jpg');
     }
 
 #c_p_on_the_plantation {
@@ -181,31 +181,31 @@ header {
     }
 
     #Suffering_surrounds {
-      background-image: url('assets/photos/Guardia.jpg');
+      background-image: url('assets/photos-web/Guardia.jpg');
     }
 
     #As_an_indentured {
-      background-image: url('assets/photos/NightHouse.jpg');
+      background-image: url('assets/photos-web/NightHouse.jpg');
     }
 
     #Turner_utilizes {
-      background-image: url('assets/photos/MoonCloud.jpg');
+      background-image: url('assets/photos-web/MoonCloud.jpg');
     }
 
     #Turner_also {
-      background-image: url('assets/photos/MoonLines.jpg');
+      background-image: url('assets/photos-web/MoonLines.jpg');
     }
 
 #re-roots_himself {
-  background-image: url('assets/photos/VillageView.jpg');
+  background-image: url('assets/photos-web/VillageView.jpg');
     }
 
     #Chen_Pan_flees {
-      background-image: url('assets/photos/VillageView.jpg');
+      background-image: url('assets/photos-web/VillageView.jpg');
     }
 
     #Chen_Pans_year {
-      background-image: url('assets/photos/Dusk.jpg');
+      background-image: url('assets/photos-web/Dusk.jpg');
     }
 
     #Chen_Pans_year {
@@ -213,11 +213,11 @@ header {
     }
 
     #To_leave_the {
-      background-image: url('assets/photos/TrinidadSt.jpg');
+      background-image: url('assets/photos-web/TrinidadSt.jpg');
     }
 
     #In_addition {
-      background-image: url('assets/photos/FusterlandiaDove.jpg');
+      background-image: url('assets/photos-web/FusterlandiaDove.jpg');
     }
 
     #He_remembered {
@@ -225,42 +225,42 @@ header {
     }
 
     #Chen_Pan_prepares {
-      background-image: url('assets/photos/Trinidad.jpg');
+      background-image: url('assets/photos-web/Trinidad.jpg');
     }
 
     #Chen_Pan_performs {
     }
 
-    #El_personaje {background-image: url('assets/photos/Bienvenido.jpg');
+    #El_personaje {background-image: url('assets/photos-web/Bienvenido.jpg');
     }
 
-    #Overcoming {background-image: url('assets/photos/CalleSN.jpg');
+    #Overcoming {background-image: url('assets/photos-web/CalleSN.jpg');
     }
 
     #After_the_episode {
     }
 
-    #Chen_Pans_movement {background-image: url('assets/photos/CTLights.jpg');
+    #Chen_Pans_movement {background-image: url('assets/photos-web/CTLights.jpg');
     }
 
-    #Six_years {background-image: url('assets/photos/Buddha.jpg');
+    #Six_years {background-image: url('assets/photos-web/Buddha.jpg');
     }
-    #He_belongs {background-image: url('assets/photos/Mantel.jpg');
+    #He_belongs {background-image: url('assets/photos-web/Mantel.jpg');
     }
 
     #Chen_Pans_exit {
     }
 
-#social_message {background-image: url('assets/photos/Capitolio.jpg');
+#social_message {background-image: url('assets/photos-web/Capitolio.jpg');
   }
 
-  #Sean_Moiles {background-image: url('assets/photos/NightHavana.jpg');
+  #Sean_Moiles {background-image: url('assets/photos-web/NightHavana.jpg');
   }
 
   #The_text_likens {
   }
 
-  #Both_Moiles {background-image: url('assets/photos/DuskStreet.jpg');
+  #Both_Moiles {background-image: url('assets/photos-web/DuskStreet.jpg');
   }
 
 #exceptional {
@@ -269,118 +269,118 @@ header {
   #The_migrants {
   }
 
-  #Chen_Pans_story  {background-image: url('assets/photos/Flags.jpg');
+  #Chen_Pans_story  {background-image: url('assets/photos-web/Flags.jpg');
   }
 
-  #Appearing_in {background-image: url('assets/photos/Free.jpg');
+  #Appearing_in {background-image: url('assets/photos-web/Free.jpg');
   }
 
-  #With_repition {background-image: url('assets/photos/Stairwell.jpg');
+  #With_repition {background-image: url('assets/photos-web/Stairwell.jpg');
   }
 
-  #The_less_fortunate {background-image: url('assets/photos/CobblestoneStreet.jpg');
+  #The_less_fortunate {background-image: url('assets/photos-web/CobblestoneStreet.jpg');
   }
 
-  #La_postura {background-image: url('assets/photos/Church.jpg');
+  #La_postura {background-image: url('assets/photos-web/Church.jpg');
   }
 
-  #The_smaller{background-image: url('assets/photos/ChurchRuins.jpg');
+  #The_smaller{background-image: url('assets/photos-web/ChurchRuins.jpg');
   }
 
-  #Domingos_father {background-image: url('assets/photos/Castro.jpg');
+  #Domingos_father {background-image: url('assets/photos-web/Castro.jpg');
   }
 
-  #Exiled_and_understanding {background-image: url('assets/photos/Castro.jpg');
+  #Exiled_and_understanding {background-image: url('assets/photos-web/Castro.jpg');
   }
 
-  #questions {background-image: url('assets/photos/CastroBday.jpg');
+  #questions {background-image: url('assets/photos-web/CastroBday.jpg');
   }
 
-  #Domingos_lack {background-image: url('assets/photos/ArtUS.jpg');
+  #Domingos_lack {background-image: url('assets/photos-web/ArtUS.jpg');
   }
 
-  #Domingo_feels {background-image: url('assets/photos/TV.jpg');
+  #Domingo_feels {background-image: url('assets/photos-web/TV.jpg');
   }
 
-  #Similarly {background-image: url('assets/photos/Window2.jpg');
+  #Similarly {background-image: url('assets/photos-web/Window2.jpg');
   }
 
-#Impossibility {background-image: url('assets/photos/NightStairs.jpg');
+#Impossibility {background-image: url('assets/photos-web/NightStairs.jpg');
   }
 
-  #The_migrations {background-image: url('assets/photos/Fields.jpg');
+  #The_migrations {background-image: url('assets/photos-web/Fields.jpg');
   }
 
   ##The_role  {background-image:
   }
 
-  #However_in_Vietnam {background-image: url('assets/photos/NightStack.jpg');
+  #However_in_Vietnam {background-image: url('assets/photos-web/NightStack.jpg');
   }
 
-  #As_their_stories {background-image: url('assets/photos/DuskStacks2.jpg');
+  #As_their_stories {background-image: url('assets/photos-web/DuskStacks2.jpg');
   }
 
-  #A_single {background-image: url('assets/photos/BeachDoors.jpg');
+  #A_single {background-image: url('assets/photos-web/BeachDoors.jpg');
   }
 
-  #In_contrast_Domingos {background-image: url('assets/photos/Beach.jpg');
+  #In_contrast_Domingos {background-image: url('assets/photos-web/Beach.jpg');
   }
 
-  #The_forest {background-image: url('assets/photos/Trash1.jpg');
+  #The_forest {background-image: url('assets/photos-web/Trash1.jpg');
   }
 
-  #In_Vietnam {background-image: url('assets/photos/Restaurant1.jpg');
+  #In_Vietnam {background-image: url('assets/photos-web/Restaurant1.jpg');
   }
 
-  #Now_who {background-image: url('assets/photos/Restaurant2.jpg');
+  #Now_who {background-image: url('assets/photos-web/Restaurant2.jpg');
   }
 
-  #Deforestation {background-image: url('assets/photos/Grocery.jpg');
+  #Deforestation {background-image: url('assets/photos-web/Grocery.jpg');
   }
 
-  #This_reading {background-image: url('assets/photos/Eggplants.jpg');
+  #This_reading {background-image: url('assets/photos-web/Eggplants.jpg');
   }
 
-  #Garcias_concern {background-image: url('assets/photos/Canon.jpg');
+  #Garcias_concern {background-image: url('assets/photos-web/Canon.jpg');
   }
 
-  #The_hostility {background-image: url('assets/photos/BuildingFront.jpg');
+  #The_hostility {background-image: url('assets/photos-web/BuildingFront.jpg');
   }
 
-  #His_mother {background-image: url('assets/photos/Lion.jpg');
+  #His_mother {background-image: url('assets/photos-web/Lion.jpg');
   }
 
-  #and {background-image: url('assets/photos/Tomb.jpg');
+  #and {background-image: url('assets/photos-web/Tomb.jpg');
   }
 
-  #The_similarity {background-image: url('assets/photos/Laterns.jpg');
+  #The_similarity {background-image: url('assets/photos-web/Laterns.jpg');
   }
 
-  #Similar_deformities {background-image: url('assets/photos/WallMural.jpg');
+  #Similar_deformities {background-image: url('assets/photos-web/WallMural.jpg');
   }
 
-  #The_narrative {background-image: url('assets/photos/Posters.jpg');
+  #The_narrative {background-image: url('assets/photos-web/Posters.jpg');
   }
 
-  #This_also   {background-image: url('assets/photos/SanFancon.jpg');
+  #This_also   {background-image: url('assets/photos-web/SanFancon.jpg');
   }
 
-  #A_damaged {background-image: url('assets/photos/HavanFlag.jpg');
+  #A_damaged {background-image: url('assets/photos-web/HavanFlag.jpg');
   }
 
-  #Deforestation_has {background-image: url('assets/photos/Shutters.jpg');
+  #Deforestation_has {background-image: url('assets/photos-web/Shutters.jpg');
   }
 
   #These_conclusions {background-image:
   }
 
-  #questions {background-image: url('assets/photos/Plaza.jpg');
+  #questions {background-image: url('assets/photos-web/Plaza.jpg');
   }
 
-  #Cho_agrees {background-image: url('assets/photos/AlleyEats.jpg');
+  #Cho_agrees {background-image: url('assets/photos-web/AlleyEats.jpg');
   }
 
-  #I_read {background-image: url('assets/photos/NightHavana.jpg');
+  #I_read {background-image: url('assets/photos-web/NightHavana.jpg');
   }
 
 #conclusion {background-image: url(''

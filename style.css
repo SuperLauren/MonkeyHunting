@@ -35,19 +35,18 @@ img {
 /* Every header or section */
 header, section {
     min-height: 100vh;
-    background-color: #ccc;
+    background-color:transparent;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
     background-repeat:no-repeat;
-    padding: 2rem;
+    padding: 1rem;
     overflow:hidden;
 }
 
 /* Any element with class="main" inside a section. */
 section .main {
-    background: white;
-    background: 255,255,255,100;
+    background: 255,255,255,.1;
     padding: 1rem 2rem;
     width: 66%;
     float:left;
@@ -65,16 +64,15 @@ section .sidebar {
 
 /* Any header */
 header {
-    background-image: url('assets/photos-web/CTGate.jpg');
+    background-image: url();
     background-attachment: fixed;
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
     align-items: center;
     color: white;
-    padding-top: .8in;
+    padding-top:.8in;
 }
-
 
 
 :target {
@@ -83,13 +81,17 @@ header {
     top:0; right:0;
 }
 
-#titlepage {
+#banner {
+    padding-bottom: 3000px;
+    padding-top: 5px;
+    padding-right: 500px;
     background-image: url('assets/photos-web/CTGate.jpg');
     background-attachment: fixed;
     display:flex;
     flex-direction:column-reverse;
     justify-content:center;
     align-items: flex-end;
+    font-size: 24px;
 }
 
 /* The element with id="thesis" */
@@ -101,50 +103,76 @@ header {
     flex-direction:column-reverse;
     justify-content:center;
     align-items: flex-end;
+
 }
 
 #thesis .main {
+    background-image: url();
     float:none;
     clear:inherit;
+
 }
 
 #outline .main {
-    background: black;
+    background-image: url('assets/photos-web/cover.jpg');
     float:left;
     clear:left;
 }
 
 #monkey_summary {
 
+}
 
+#author {
+    background-image: url();
 }
 
 #intro_to_essay {
-    background-image: url('assets/photos-web/Wall.jpg');
-}
-
-#intro_to_essay2 {
     background-image: url('VFLAG');
 }
 
+#intro_to_essay2 {
+    background-image: url('assets/photos-web/Wall.jpg');
+}
+
+#ritual_rebirth {
+    background-image: url('assets/photos-web/Water.jpg');
+}
+
+#In_the_novel {
+    background-image: url('assets/photos-web/Dock.jpg');
+}
+
+#Both_Chen {
+    background-image: url();
+}
+
+#Van_Gennep{
+    background-image: url('assets/photos-web/:CememteryEntrance.jpg');
+}
+
+#Origins {
+    background-image: url('assets/photos-web/:Panteon.jpg');
+}
+
 #The_liminal {
-      background-image: url('assets/photos-web/CemeteryBoxes.jpg');
+      background-image: url('assets/photos-web/:cemetery.jpg');
 }
 
 #García_cites {
-      background-image: url('assets/photos-web/Skull.jpg');
+      background-image: url('assets/photos-web/CemeteryBoxes.jpg');
 }
 
 #At_sea {
-      background-image: url('assets/photos-web/BonesBox.jpg');
+      background-image: url('assets/photos-web/KidGraves.jpg');
 }
 
 #The_prevalence {
-      background-image: url('assets/photos-web/NightStairs.jpg');
+      background-image: url('assets/photos-web/Skull.jpg');
 }
 
 #Onboard_the_ship {
-      background-image: url('assets/photos-web/DuskStreet.jpg');
+      background-image: url('assets/photos-web/BonesBox.jpg');
 }
 
 #Furthermore {
@@ -168,7 +196,7 @@ header {
 }
 
 #exited {
-      background-image: url('');
+      background-image: url('assets/photos-web/BWPueblo.jpg');
 }
 
 #c_p_on_the_plantation {
@@ -186,7 +214,7 @@ header {
 }
 
 #Turner_utilizes {
-      background-image: url('assets/photos-web/Shutters.jpg');
+      background-image: url('assets/photos-web/MoonCloud.jpg');
 }
 
 #Turner_also {
@@ -194,11 +222,11 @@ header {
 }
 
 #plantation {
-  background-image: url('');
+  background-image: url('assets/photos-web/TrinidadSt.jpg');
 }
 
 #re-roots_himself {
-  background-image: url('assets/photos-web/VillageView.jpg');
+  background-image: url('assets/photos-web/Shutters.jpg');
 }
 
 #Chen_Pan_flees {
@@ -209,7 +237,9 @@ header {
       background-image: url('assets/photos-web/Dusk.jpg');
 }
 
-
+#Chen_Pans_time {
+    background-image: url('assets/photos-web/Castro.jpg');
+}
 
 #To_leave_the {
       background-image: url('assets/photos-web/assets/photos-web/Restaurant1.jpg');
@@ -220,15 +250,15 @@ header {
 }
 
 #He_remembered {
-      background-image:
+      background-image:url('assets/photos-web/ChurchRuins.jpg');
 }
 
 #Chen_Pan_prepares {
-      background-image: url('assets/photos-web/Trinidad.jpg');
+      background-image: url('assets/photos-web/Bienvenido.jpg');
 }
 
 #Chen_Pan_performs {
-
+      background-image: url('assets/photos-web/Free.jpg');
 }
 
 #El_personaje {background-image: url('assets/photos-web/Fields.jpg');
@@ -237,13 +267,13 @@ header {
 #Overcoming {background-image: url('assets/photos-web/CalleSN.jpg');
 }
 
-#After_the_episode {
+#After_the_episode {background-image: url('assets/photos-web/Buddha.jpg');
 }
 
 #Chen_Pans_movement {background-image: url('assets/photos-web/CTLights.jpg');
 }
 
-#Six_years {background-image: url('assets/photos-web/Buddha.jpg');
+#Six_years {background-image: url('assets/photos-web/DuskStreet.jpg');
 }
 
 #He_belongs {background-image: url('assets/photos-web/Mantel.jpg');

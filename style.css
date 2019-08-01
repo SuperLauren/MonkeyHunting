@@ -47,7 +47,7 @@ header, section {
 /* Any element with class="main" inside a section. */
 section .main {
     background: white;
-    background: transparent;
+    background: 255,255,255,100;
     padding: 1rem 2rem;
     width: 66%;
     float:left;
@@ -109,7 +109,7 @@ header {
 }
 
 #outline .main {
-    background: transparent;
+    background: black;
     float:left;
     clear:left;
 }

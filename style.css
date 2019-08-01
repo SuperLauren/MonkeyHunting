@@ -85,7 +85,7 @@ header {
 
 /* The element with id="thesis" */
 #titlepage {
-    background-image: url('VCTGate');
+    background-image: url('assets/photos-web/CTGate.jpg');
     background-attachment: fixed;
     display:flex;
     flex-direction:column-reverse;

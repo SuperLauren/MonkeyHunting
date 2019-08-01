@@ -47,7 +47,7 @@ header, section {
 /* Any element with class="main" inside a section. */
 section .main {
     background: white;
-    background: rgba(255,255,1,1);
+    background: transparent;
     padding: 1rem 2rem;
     width: 66%;
     float:left;
@@ -83,7 +83,6 @@ header {
     top:0; right:0;
 }
 
-/* The element with id="thesis" */
 #titlepage {
     background-image: url('assets/photos-web/CTGate.jpg');
     background-attachment: fixed;
@@ -92,6 +91,8 @@ header {
     justify-content:center;
     align-items: flex-end;
 }
+
+/* The element with id="thesis" */
 
 #thesis {
     background-image: url('assets/photos-web/CTGate.jpg');
@@ -107,17 +108,11 @@ header {
     clear:inherit;
 }
 
-#outline {
-    background-image: ;
-    background-attachment: scroll;
-}
-
 #outline .main {
     background: transparent;
     float:left;
     clear:left;
 }
-
 
 #monkey_summary {
 

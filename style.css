@@ -110,9 +110,8 @@ header {
     display:flex;
     flex-direction:column-reverse;
     justify-content:center;
-    align-items: flex-end;
+    align-items: ;
     color: white;
-
 }
 
 #thesis .main {
@@ -132,17 +131,20 @@ header {
 }
 
 #outline .main {
-    background-image: url('assets/photos-web/cover.jpg');
+    background-image: url('assets/photos-web/cover 2.jpg');
     float:left;
     clear:left;
 }
 
 #monkey_summary {
+  background-image: url('assets/photos-web/familytree 2.jpg');
 
 }
 
 #author {
     background-image: url();
+    float:left;
+    clear:left;
 }
 
 #intro_to_essay {
@@ -151,6 +153,14 @@ header {
 
 #intro_to_essay2 {
     background-image: url('assets/photos-web/Wall.jpg');
+}
+
+#engages {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+  background-color: rgba(1,1,1,.5);
 }
 
 #ritual_rebirth {
@@ -163,6 +173,7 @@ header {
 
 #Both_Chen {
     background-image: url();
+    background-color: white;
 }
 
 #Van_Gennep{
@@ -217,28 +228,79 @@ color: black;
       background-image: url('assets/photos-web/KidGraves.jpg');
 }
 
+#At_seatext {
+    float:none;
+    clear:inherit;
+    color: white;
+    line-height: 30px;
+    background-color: rgba(1,1,1,.5);
+}
+
 #The_prevalence {
       background-image: url('assets/photos-web/Skull.jpg');
+}
+
+#The_prevalencetext {
+    float:none;
+    clear:inherit;
+    color: white;
+    line-height: 30px;
+    background-color: rgba(1,1,1,.5);
 }
 
 #Onboard_the_ship {
       background-image: url('assets/photos-web/BonesBox.jpg');
 }
 
+#Onboard_the_shiptext{
+    float:none;
+    clear:inherit;
+    color: white;
+    line-height: 30px;
+    background-color: rgba(1,1,1,.5);
+}
+
 #Furthermore {
-      background-image: url('assets/photos-web/MoonCloud.jpg');
+      background-image: url();
 }
 
 #The_physical {
-      background-image: url('assets/photos-web/BWSteeple.jpg');
+      background-image: url('assets/photos-web/BWPueblo.jpg');
+}
+
+#The_physicaltext {
+    float:none;
+    clear:inherit;
+    color: black;
+    line-height: 30px;
+    background-color: rgba(255,255,255,.9);
 }
 
 #His_body {
       background-image: url('assets/photos-web/WallMural.jpg');
+      background-size: contain;
+      width: 1000px;
+      height: 1000px;
+      resize: both;
+      overflow: scroll;
+}
+
+#His_bodytext {
+      margin: 250px 60% 0% 10%;
 }
 
 #The_man_does {
       background-image: url('assets/photos-web/Tomb.jpg');
+
+}
+
+#The_man_doestext {
+    float:none;
+    clear:inherit;
+    color: white;
+    line-height: 30px;
+    background-color: rgba(1,1,1,.5);
+
 }
 
 #Harbor {
@@ -259,16 +321,47 @@ color: black;
       background-image: url('assets/photos-web/Guardia.jpg');
 }
 
+#Suffer_surroundstext {
+      float:none;
+      clear:inherit;
+      color: white;
+      line-height: 30px;
+      background-color: rgba(1,1,1,.5);
+}
+
 #As_an_indentured {
       background-image: url('assets/photos-web/NightHouse.jpg');
+}
+
+#As_an_indenturedtext {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+  background-color: rgba(1,1,1,.8);
 }
 
 #Turner_utilizes {
       background-image: url('assets/photos-web/MoonCloud.jpg');
 }
 
+#Turner_utilizestext {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+}
+
 #Turner_also {
       background-image: url('assets/photos-web/HavanaFlag.jpg');
+}
+
+#Turner_alsotext {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+  background-color: rgba(1,1,1,.5);
 }
 
 #plantation {
@@ -283,6 +376,15 @@ color: black;
       background-image: url('assets/photos-web/VillageView.jpg');
 }
 
+#Chen_Pan_fleestext {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+  background-color: rgba(1,1,1,.5);
+
+}
+
 #Chen_Pans_year {
       background-image: url('assets/photos-web/Dusk.jpg');
 }
@@ -291,16 +393,50 @@ color: black;
     background-image: url('assets/photos-web/Castro.jpg');
 }
 
+#Chen_Pans_timetext {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+  background-color: rgba(1,1,1,.75);
+}
+
 #To_leave_the {
-      background-image: url('assets/photos-web/assets/photos-web/Restaurant1.jpg');
+      background-image: url('assets/photos-web/Restaurant1.jpg');
+}
+
+#To_leave_thetext  {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+  background-color: rgba(1,1,1,.75);
 }
 
 #In_addition {
       background-image: url('assets/photos-web/FusterlandiaDove.jpg');
 }
 
+#In_additiontext {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+  background-color: rgba(1,1,1,.75);
+  margin-top: 25%;
+}
+
 #He_remembered {
       background-image:url('assets/photos-web/ChurchRuins.jpg');
+}
+
+#He_rememberedtext {
+  loat:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+  background-color: rgba(1,1,1,.75);
+  margin-top: 25%;
 }
 
 #Chen_Pan_prepares {
@@ -311,13 +447,49 @@ color: black;
       background-image: url('assets/photos-web/Free.jpg');
 }
 
+#Chen_Pan_performstext {
+  float:none;
+  clear:inherit;
+  color: black;
+  line-height: 30px;
+  background-color: rgba(255,255,255,.75);
+  margin-top: 25%;
+}
+
 #El_personaje {background-image: url('assets/photos-web/Fields.jpg');
+}
+
+#El_personajetext {
+  float:none;
+  clear:inherit;
+  color: black;
+  line-height: 30px;
+  background-color: rgba(255,255,255,.6);
+  margin-top: 25%;
 }
 
 #Overcoming {background-image: url('assets/photos-web/CalleSN.jpg');
 }
 
 #After_the_episode {background-image: url('assets/photos-web/Buddha.jpg');
+}
+
+#After_the_episodetext {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+  background-color: rgba(1,1,1,.5);
+  margin-top: 25%;
+}
+
+#A_distinction  {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+  background-color: rgba(1,1,1,.5);
+  margin-top:;
 }
 
 #Chen_Pans_movement {background-image: url('assets/photos-web/CTLights.jpg');
@@ -329,12 +501,38 @@ color: black;
 #He_belongs {background-image: url('assets/photos-web/Mantel.jpg');
 }
 
+#He_belongstext {
+  float:none;
+  clear:inherit;
+  color: black;
+  line-height: 30px;
+  background-color: rgba(255,255,255,.6);
+  margin-top: 25%;
+}
+
 #Chen_Pans_exit {background-image: url('assets/photos-web/Plaza.jpg')
 
 }
 
+#II{
+  float:none;
+  clear:inherit;
+  color: Black;
+  line-height: 30px;
+  background-color: ;
+}
+
 #social_message {background-image: url('assets/photos-web/Capitolio.jpg');
 }
+
+#social_messagetext {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+  background-color: rgba(1,1,1,.75);
+  margin-top: 15%;
+}}
 
 
 #conclusion {background-image: url('assets/photos-web/NightHavana.jpg')

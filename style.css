@@ -90,62 +90,129 @@ header {
     background-image: ;
     background-attachment: fixed;
     display:flex;
-    flex-direction:column-reverse;
     justify-content:center;
     align-items: flex-end;
     font-size: 24px;
     line-height: 70px;
-
 }
 
 #banner h1 {
     margin: 20px 35% 50% 5%;
+    font-family: serif;
 }
+
+.divider {
+    width: 300px;
+    height: 2px;
+    background: #333;
+    margin: 20px;
+}
+
+#banner h2 {
+  position: absolute;
+  left: 151px;
+  top: 350px;
+  font-size: 24px;
+  font-family: "LaurenHand";
+  src: url('assets/laurenhand-regular-webfont.woff') format("woff");
+  font-weight:normal;
+  font-style:normal;
+}
+
+
+
 
 /* The element with id="thesis" */
 
 #thesis {
-    background-image: url('assets/photos-web/CTGate.jpg');
+    background-image: url('assets/photos/cover.jpg');
     background-attachment: fixed;
     display:flex;
-    flex-direction:column-reverse;
+    flex-direction: column-reverse;
     justify-content:center;
-    align-items: ;
-    color: white;
+    color: black;
+    background-image: contain;
+    border-image: 2px solid;
+    background-size: 450px;
+    background-position: right;
+
 }
 
 #thesis .main {
     background-image: url();
     float:none;
     clear:inherit;
-
 }
 
 #thesistext {
     background-image: url();
     float:none;
     clear:inherit;
-    color: white;
+    color:  black;
     line-height: 30px;
 
 }
 
-#outline .main {
-    background-image: url('assets/photos-web/cover 2.jpg');
-    float:left;
-    clear:left;
-}
-
-#monkey_summary {
-  background-image: url('assets/photos-web/familytree 2.jpg');
+#outline {
+    background-image: url('assets/photos-web/CTGate.jpg');
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 }
 
-#author {
-    background-image: url();
-    float:left;
-    clear:left;
+#outline_table {
+    line-height: 40px;
+
 }
+
+#outlinetext {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+}
+
+#Outline_Note {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 25px;
+  font-size: 18px;
+  background-color: rgba(1,1,1,.5);
+}
+
+#monkey_overview {
+  background-image: url('assets/photos/familytree.jpg');
+  background-attachment: fixed;
+  display:flex;
+  flex-direction: column-reverse;
+  justify-content:center;
+  color: black;
+  background-image: contain;
+  border-image: 2px solid;
+  background-size: 450px;
+  background-position: right;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+#Author {
+    background-image: url('assets/photos-web/Cristina_García.jpg');
+    background-attachment: fixed;
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content:center;
+    color: black;
+    background-image: contain;
+    border-image: 2px solid;
+    background-size: 450px;
+    background-position: right;
+
+}
+
+#Authortext
 
 #intro_to_essay {
     background-image: url('VFLAG');
@@ -176,9 +243,17 @@ header {
     background-color: white;
 }
 
-#Van_Gennep{
-    background-image: url('assets/photos-web/CememteryEntrance.jpg');
+#Van_Gennep {
+    background-image: url('assets/photos-web/CemeteryEntrance.jpg');
 }
+
+#Van_Genneptext {
+  float:none;
+  clear:inherit;
+  color: black;
+  line-height: 30px;
+  background-color: rgba(255,255,255,.75);
+  margin-top: 25%;}
 
 #Origins {
   background-image: url();
@@ -213,15 +288,30 @@ cursor: pointer;
 #myBtn:hover {
 background: #ddd;
 color: black;
-};
 }
 
 #The_liminal {
       background-image: url('assets/photos-web/Cemetery.jpg');
 }
 
+#The_liminaltext {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+  background-color: rgba(1,1,1,.5);
+}
+
 #García_cites {
       background-image: url('assets/photos-web/CemeteryBoxes.jpg');
+}
+
+#García_citestext {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+  background-color: rgba(1,1,1,.5);
 }
 
 #At_sea {
@@ -307,8 +397,17 @@ color: black;
       background-image: url('assets/photos-web/Lion.jpg');
 }
 
+#Harbortext {
+  float:none;
+  clear:inherit;
+  color: black;
+  line-height: 30px;
+  background-color: rgba(255,255,255,.5);
+
+}
+
 #exited {
-      background-image: url('assets/photos-web/BWPueblo.jpg');
+      background-image: url();
 }
 
 #c_p_on_the_plantation {
@@ -443,6 +542,16 @@ color: black;
       background-image: url('assets/photos-web/Bienvenido.jpg');
 }
 
+#Chen_Pan_preparestext {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+  background-color: rgba(1,1,1,.75);
+  margin-top: 25%;
+}
+
+
 #Chen_Pan_performs {
       background-image: url('assets/photos-web/Free.jpg');
 }
@@ -468,8 +577,16 @@ color: black;
   margin-top: 25%;
 }
 
-#Overcoming {background-image: url('assets/photos-web/CalleSN.jpg');
+#Overcoming {background-image: url('assets/photos-web/CalleSanNicolas.jpg');
 }
+
+#Overcomingtext {
+  float:none;
+  clear:inherit;
+  color: black;
+  line-height: 30px;
+  background-color: rgba(255,255,255,.6);
+  margin-top: 25%;}
 
 #After_the_episode {background-image: url('assets/photos-web/Buddha.jpg');
 }
@@ -492,13 +609,34 @@ color: black;
   margin-top:;
 }
 
-#Chen_Pans_movement {background-image: url('assets/photos-web/CTLights.jpg');
+#Chen_Pans_movement {
+  background-image: url('assets/photos-web/CTLights.jpg');
 }
 
-#Six_years {background-image: url('assets/photos-web/DuskStreet.jpg');
+#Chen_Pans_movementtext {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+  background-color: rgba(1,1,1,.5);
+  margin-top:;
 }
 
-#He_belongs {background-image: url('assets/photos-web/Mantel.jpg');
+#Six_years {
+  background-image: url('assets/photos-web/DuskStreet.jpg');
+}
+
+#Six_yearstext {
+float:none;
+clear:inherit;
+color: white;
+line-height: 30px;
+background-color: rgba(1,1,1,.5);
+margin-top:;
+}
+
+#He_belongs {
+  background-image: url('assets/photos-web/Mantel.jpg');
 }
 
 #He_belongstext {
@@ -510,8 +648,17 @@ color: black;
   margin-top: 25%;
 }
 
-#Chen_Pans_exit {background-image: url('assets/photos-web/Plaza.jpg')
+#Chen_Pans_exit {background-image: url('assets/photos-web/Beach.jpg');
 
+}
+
+#Chen_Pans_exittext {
+  float:none;
+  clear:inherit;
+  color: black;
+  line-height: 30px;
+  background-color: rgba(255,255,255,.3);
+  margin-top: 25%;
 }
 
 #II{
@@ -535,6 +682,6 @@ color: black;
 }}
 
 
-#conclusion {background-image: url('assets/photos-web/NightHavana.jpg')
+#conclusion {background-image: url('assets/photos-web/NightHavana1.jpg');
 
 }

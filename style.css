@@ -163,6 +163,7 @@ header {
 
 #outline_table {
     line-height: 40px;
+    color: white;
 
 }
 
@@ -173,14 +174,6 @@ header {
   line-height: 30px;
 }
 
-#Outline_Note {
-  float:none;
-  clear:inherit;
-  color: white;
-  line-height: 25px;
-  font-size: 18px;
-  background-color: rgba(1,1,1,.5);
-}
 
 #monkey_overview {
   background-image: url('assets/photos/familytree.jpg');

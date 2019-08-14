@@ -97,7 +97,10 @@ header {
 }
 
 #banner h1 {
-    margin: 20px 35% 50% 5%;
+    position:absolute;
+    left: 125px;
+    top: 100px;
+    margin: 10px 5% 50% 0%;
     font-family: serif;
 }
 
@@ -158,13 +161,22 @@ header {
     color: white;
     margin-top: 30px;
     margin-bottom: 30px;
-
+    position: relative;
+    overflow: hidden;
+    text:contain;
 }
+
 
 #outline_table {
     line-height: 40px;
     color: white;
+    border-style:solid;
+    background-color:rgba(1,1,1,.5);
+}
 
+#sidebarnote {
+    line-height: 40px;
+    color: white;
 }
 
 #outlinetext {
@@ -672,9 +684,30 @@ margin-top:;
   line-height: 30px;
   background-color: rgba(1,1,1,.75);
   margin-top: 15%;
-}}
+}
 
 
-#conclusion {background-image: url('assets/photos-web/NightHavana1.jpg');
+#conclusion {
+  background-image: url('assets/photos-web/NightHavana1.jpg');
 
+}
+
+#conclusiontext {
+  float:none;
+  clear:inherit;
+  color: white;
+  line-height: 30px;
+  background-color: rgba(1,1,1,.5);
+  margin-top: 15%;
+}
+
+#end {
+  background-image: url('assets/photos-web/CTGate.jpg');
+}
+
+#endtext {
+  float: none;
+  clear: inherit;
+  color: white;
+  line-height: 30px;
 }
